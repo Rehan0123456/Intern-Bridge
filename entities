@@ -1,0 +1,47 @@
+{
+  "name": "Internship",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title"
+    },
+    "field": {
+      "type": "string",
+      "title": "Field"
+    },
+    "location": {
+      "type": "string",
+      "title": "Location"
+    },
+    "location_type": {
+      "type": "string",
+      "title": "Location Type",
+      "enum": [
+        "Virtual",
+        "In-Person"
+      ]
+    },
+    "deadline": {
+      "type": "string",
+      "title": "Deadline"
+    },
+    "grade": {
+      "type": "string",
+      "title": "Grade"
+    },
+    "url": {
+      "type": "string",
+      "title": "URL"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    }
+  },
+  "required": [
+    "title",
+    "field",
+    "location"
+  ]
+}
